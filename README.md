@@ -18,6 +18,8 @@
 目前，我们非常开心的推出了兼容多平台的onnx格式的ocr工具`AnyOCR`，其核心亮点在于采用ONNXRuntime作为推理引擎，相比PaddlePaddle推理引擎，确保了高效稳定的运行。
 
 - github地址：[AnyOCR](https://github.com/oriforge/anyocr)
+- Hugging Face: [AnyOCR](https://huggingface.co/oriforge/anyocr)
+- ModelScope: [AnyOCR](https://www.modelscope.cn/models/oriforge/anyocr)
 
 ## 2. 缘起
 
