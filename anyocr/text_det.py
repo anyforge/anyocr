@@ -251,7 +251,7 @@ class TextDetector:
             "use_dilation": config.get("use_dilation", True),
             "score_mode": config.get("score_mode", "fast"),
         }
-        print(config)
+
         self.postprocess_op = DBPostProcess(**post_process)
 
         self.infer = OrtInferSession(config)
