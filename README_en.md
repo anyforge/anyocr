@@ -17,6 +17,8 @@ English | [简体中文](./README.md)
 At present, we are very pleased to launch the Onnx format OCR tool 'AnyOCR' that is compatible with multiple platforms. Its core highlight is the use of ONNXRime as the inference engine, which ensures efficient and stable operation compared to PaddlePaddle inference engine.
 
 - github地址：[AnyOCR](https://github.com/oriforge/anyocr)
+- Hugging Face: [AnyOCR](https://huggingface.co/oriforge/anyocr)
+- ModelScope: [AnyOCR](https://www.modelscope.cn/models/oriforge/anyocr)
 
 ## 2. Origin
 
