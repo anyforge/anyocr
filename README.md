@@ -78,7 +78,11 @@ Paddleocr在一些新型的数据上或者领域数据上表现的并不是很�
 ### 安装依赖
 
 ```bash
+## for cpu
 pip install -r requirements.txt
+
+## for gpu
+pip install -r requirements-gpu.txt
 ```
 
 ### 使用方法
