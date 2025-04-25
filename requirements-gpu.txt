@@ -1,0 +1,8 @@
+pyclipper>=1.2.0
+numpy>=1.19.5,<3.0.0
+six>=1.15.0
+Shapely>=1.7.1,!=2.0.4  # python3.12 2.0.4 bug
+onnxruntime-gpu>=1.7.0
+PyYAML
+Pillow
+opencv_python
