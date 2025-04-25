@@ -79,7 +79,11 @@ Our evaluation set and other OCR accuracy testing evaluations:
 ### Install dependencies
 
 ```bash
+## for cpu
 pip install -r requirements.txt
+
+## for gpu
+pip install -r requirements-gpu.txt
 ```
 
 ### Method of use
