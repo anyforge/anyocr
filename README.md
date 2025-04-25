@@ -90,6 +90,15 @@ res = model.raw_completions('/to/your/image',use_cls=True,use_det=True)
 print(res)
 
 
+## 返回单字坐标
+
+from anyocr.pipeline import anyocr
+
+model = anyocr()
+
+res = model.raw_completions('/to/your/image',use_cls=True,use_det=True,return_word_box = True)
+
+
 ### 自定义模型地址
 from anyocr.pipeline import anyocr
 from anyocr.pipeline import anyocrConfig
