@@ -422,11 +422,12 @@ class anyocr(object):
             use_det = True,
             use_cls = True,
             use_rec = True,
-            cls_line = True
+            cls_line = True,
+            **kwargs
         ):
         res = []
         
-        result,elapse = self.ocrmodel(image,use_det=use_det,use_cls=use_cls,use_rec=use_rec)
+        result,elapse = self.ocrmodel(image,use_det=use_det,use_cls=use_cls,use_rec=use_rec,**kwargs)
         if not result:
             return ""
         for line in result:
@@ -452,25 +453,7 @@ class anyocr(object):
             use_det = True,
             use_cls = True,
             use_rec = True,
+            **kwargs
         ):
-        ocr_result = []
-        result,elapse = self.ocrmodel(image,use_det=use_det,use_cls=use_cls,use_rec=use_rec)
-        if not result:
-            return []
-        for line in result:
-            if line:
-                if use_det:
-                    box,text,score = line
-                    x1,y1 = box[0]
-                    x2,y2 = box[2]
-                    bbox = [x1,y1,x2,y2]
-                else:
-                    text,score = line
-                    bbox = []
-                ocr_result.append({
-                    "content": text,
-                    "bbox": bbox,
-                    "score": score
-                })                        
-                    
-        return ocr_result  
+        result,elapse = self.ocrmodel(image,use_det=use_det,use_cls=use_cls,use_rec=use_rec,**kwargs)
+        return result,elapse
