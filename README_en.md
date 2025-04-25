@@ -51,7 +51,7 @@ Total dataset: greater than `385K`。
 - Recognition model: `anyocr_rec_v4_server.onnx`, fine tuned and trained on our dataset by `ch_PP-OCRv4_server_rec`.
 - Direction classification: `anyocr_cls_v4.onnx`, sourced from `ch_ppocr_mobile_v2.0_cls` without training.
 - Text character: `anyocr_keys_v4.txt`, derived from `ppocr/utils/ppocr_keys_v1.txt`.
-
+- Larger and stronger: We have also trained a larger and stronger text recognition model that supports recognition of Chinese, English, and numbers. It supports recognition of over 15000 characters and some obscure characters, and can be applied for by email.
 
 
 ### evaluation
