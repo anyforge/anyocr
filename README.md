@@ -51,7 +51,7 @@ Paddleocr在一些新型的数据上或者领域数据上表现的并不是很�
 - 识别模型：`anyocr_rec_v4_server.onnx`，由`ch_PP-OCRv4_server_rec`在我们的数据集上微调训练而来。
 - 方向分类：`anyocr_cls_v4.onnx`，来源于`ch_ppocr_mobile_v2.0_cls`未做训练。
 - 文字字符：`anyocr_keys_v4.txt`，来源于`ppocr/utils/ppocr_keys_v1.txt`。
-
+- 更大更强：我们还训练了一个更大更强的文字识别模型，支持中英文、数字识别，支持1.5万+字符和部分生僻字识别，需要可邮件申请使用。
 
 ### 评估
 
