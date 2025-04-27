@@ -179,6 +179,12 @@ class anyocrConfig(BaseModel):
 
 ```
 
+## Buy me a coffee
+
+<div align="left">
+    <img src="./zanshan.jpg" width="30%" height="30%">
+</div>
+
 ## Special Thanks
 - `paddleocr` Provide original models and fine-tuning tutorials
 - Most of the source code comes from `RapidOCR`，I have made some personal changes
