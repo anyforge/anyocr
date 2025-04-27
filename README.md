@@ -179,6 +179,8 @@ class anyocrConfig(BaseModel):
 
 ## Buy me a coffee
 
+- 微信(WeChat)
+
 <div align="left">
     <img src="./zanshan.jpg" width="30%" height="30%">
 </div>
