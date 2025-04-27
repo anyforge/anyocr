@@ -177,6 +177,13 @@ class anyocrConfig(BaseModel):
 
 ```
 
+## Buy me a coffee
+
+<div align="left">
+    <img src="./zanshan.jpg" width="30%" height="30%">
+</div>
+
+
 ## 特别鸣谢
 - `paddleocr`提供原始模型以及微调教程
 - 大部分源码来源于`RapidOCR`，个人做了一些改动
