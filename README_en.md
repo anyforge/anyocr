@@ -132,6 +132,29 @@ res = model.raw_completions('/to/your/image',use_cls=True,use_det=True)
 print(res)
 ```
 
+### Use paddleocr integration
+
+```python
+from paddleocr import PaddleOCR, draw_ocr
+
+ocrmodel = PaddleOCR(
+    use_gpu = False, # or True
+    det_model_dir = "anyocr/paddlemodels/det/ch_PP-OCRv4_det_infer",
+    cls_model_dir = "anyocr/paddlemodels/cls/ch_ppocr_mobile_v2.0_cls_infer",
+    rec_model_dir = "anyocr/paddlemodels/rec/anyocr_rec_v4_server",
+    rec_char_dict_path = "anyocr/paddlemodels/anyocr_keys_v4.txt",
+    use_dilation = True,  
+)
+img_path = '/to/your/image'
+
+result = ocrmodel.ocr(img_path, cls=True)
+for idx in range(len(result)):
+    res = result[idx]
+    for line in res:
+        print(line)
+
+```
+
 - If you have better text detection, text recognition can also use only a part of ours.
 - You can also export the PaddleOCR model to onnx format and use AnyOCR inference, or you can fine tune the PaddleOCR model yourself and use AnyOCR inference.
 
