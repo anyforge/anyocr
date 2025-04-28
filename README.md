@@ -133,6 +133,28 @@ print(res)
 - 如果您有更好的文字检测，文本识别识别也可以只使用我们的一部分。
 - 您也可以将paddleocr的模型导出成onnx格式，使用AnyOCR推理，或者您自己微调的paddleocr模型，使用AnyOCR推理。
 
+### Use paddleocr integration
+
+```python
+from paddleocr import PaddleOCR, draw_ocr
+
+ocrmodel = PaddleOCR(
+    use_gpu = False, # or True
+    det_model_dir = "anyocr/paddlemodels/det/ch_PP-OCRv4_det_infer",
+    cls_model_dir = "anyocr/paddlemodels/cls/ch_ppocr_mobile_v2.0_cls_infer",
+    rec_model_dir = "anyocr/paddlemodels/rec/anyocr_rec_v4_server",
+    rec_char_dict_path = "anyocr/paddlemodels/anyocr_keys_v4.txt",
+    use_dilation = True,  
+)
+img_path = '/to/your/image'
+
+result = ocrmodel.ocr(img_path, cls=True)
+for idx in range(len(result)):
+    res = result[idx]
+    for line in res:
+        print(line)
+
+```
 
 ### 参数配置
 
