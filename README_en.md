@@ -1,7 +1,7 @@
 # AnyOCR
 
-<a href="https://huggingface.co/oriforge/anyocr" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97-HuggingFace-blue"></a>
-<a href="https://www.modelscope.cn/models/oriforge/anyocr" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/%E9%AD%94%E6%90%AD-ModelScope-blue"></a>
+<a href="https://huggingface.co/anyforge/anyocr" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97-HuggingFace-blue"></a>
+<a href="https://www.modelscope.cn/models/anyforge/anyocr" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/%E9%AD%94%E6%90%AD-ModelScope-blue"></a>
 <a href=""><img src="https://img.shields.io/badge/Python->=3.6-aff.svg"></a>
 <a href=""><img src="https://img.shields.io/badge/OS-Linux%2C%20Win%2C%20Mac-pink.svg"></a>
 <a href=""><img alt="Static Badge" src="https://img.shields.io/badge/engine-cpu_gpu_onnxruntime-blue"></a>
@@ -22,9 +22,9 @@ English | [简体中文](./README.md)
 
 At present, we are very pleased to launch the Onnx format OCR tool 'AnyOCR' that is compatible with multiple platforms. Its core highlight is the use of ONNXRime as the inference engine, which ensures efficient and stable operation compared to PaddlePaddle inference engine.
 
-- github地址：[AnyOCR](https://github.com/oriforge/anyocr)
-- Hugging Face: [AnyOCR](https://huggingface.co/oriforge/anyocr)
-- ModelScope: [AnyOCR](https://www.modelscope.cn/models/oriforge/anyocr)
+- github地址：[AnyOCR](https://github.com/anyforge/anyocr)
+- Hugging Face: [AnyOCR](https://huggingface.co/anyforge/anyocr)
+- ModelScope: [AnyOCR](https://www.modelscope.cn/models/anyforge/anyocr)
 
 ## 2. Origin
 
@@ -216,4 +216,4 @@ class anyocrConfig(BaseModel):
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=oriforge/anyocr&type=Date)](https://www.star-history.com/#oriforge/anyocr&Date)4
+[![Star History Chart](https://api.star-history.com/svg?repos=anyforge/anyocr&type=Date)](https://www.star-history.com/#anyforge/anyocr&Date)
