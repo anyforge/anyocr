@@ -1,7 +1,7 @@
 # AnyOCR
 
-<a href="https://huggingface.co/oriforge/anyocr" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97-HuggingFace-blue"></a>
-<a href="https://www.modelscope.cn/models/oriforge/anyocr" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/%E9%AD%94%E6%90%AD-ModelScope-blue"></a>
+<a href="https://huggingface.co/anyforge/anyocr" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97-HuggingFace-blue"></a>
+<a href="https://www.modelscope.cn/models/anyforge/anyocr" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/%E9%AD%94%E6%90%AD-ModelScope-blue"></a>
 <a href=""><img src="https://img.shields.io/badge/Python->=3.6-aff.svg"></a>
 <a href=""><img src="https://img.shields.io/badge/OS-Linux%2C%20Win%2C%20Mac-pink.svg"></a>
 <a href=""><img alt="Static Badge" src="https://img.shields.io/badge/engine-cpu_gpu_onnxruntime-blue"></a>
@@ -23,9 +23,9 @@
 
 目前，我们非常开心的推出了兼容多平台的onnx格式的ocr工具`AnyOCR`，其核心亮点在于采用ONNXRuntime作为推理引擎，相比PaddlePaddle推理引擎，确保了高效稳定的运行。
 
-- github地址：[AnyOCR](https://github.com/oriforge/anyocr)
-- Hugging Face: [AnyOCR](https://huggingface.co/oriforge/anyocr)
-- ModelScope: [AnyOCR](https://www.modelscope.cn/models/oriforge/anyocr)
+- github地址：[AnyOCR](https://github.com/anyforge/anyocr)
+- Hugging Face: [AnyOCR](https://huggingface.co/anyforge/anyocr)
+- ModelScope: [AnyOCR](https://www.modelscope.cn/models/anyforge/anyocr)
 
 ## 2. 缘起
 
