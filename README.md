@@ -214,4 +214,4 @@ class anyocrConfig(BaseModel):
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=oriforge/anyocr&type=Date)](https://www.star-history.com/#oriforge/anyocr&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=anyforge/anyocr&type=Date)](https://www.star-history.com/#anyforge/anyocr&Date)
